@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Youssouf Alioum: portfolio</title>
+	<link rel="shortcut icon" href="icons/youss-icon.png" type="icons/png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!--Section pour la barre de navigation-->
+	<section id="nav-bar">
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#Apropos">A Propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="doc/MonCV.pdf" target="_blank">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#competence">Compétences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Mes Réalisations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#partie_timeline">Mes Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#reseau-social">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	</section>
+
+	<!--Section pour la bannière-->
+
+	<section id="banner" style="background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/youss.png);">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="titre-bienvenu animated wobble">Bienvenue sur mon portfolio</p>
+					<p>Je m'appelle Youssouf Alioum je suis un des bénéficiaires de la promo 3 du programme 10000Codeurs au Cameroun.</p>
+					<a href="https://www.youtube.com/watch?v=AE80W5OO6jc" target="_blank"><img src="icons/youtube-play-button.png" class="btn-play">Voir mon interview</a>
+				</div>
+			</div>
+		</div>
+
+		<img src="images/wave.png" class="lewave">
+		
+	</section>
+
+
+	<!--Section Apropos-->
+
+	<section id="Apropos">
+		<div class="container">
+			<h1 class="titre text-center">A propos de moi</h1>
+			<div class="row">
+				<div class="col">
+					<div id="Aproposdata">
+						<div class="card bg-white">
+							<div class="card-title my-5">
+								<div class="media">
+									<img src="images/yous.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+									<div class="media-body">
+										<h3 class="display-4 ml-5">Je m'appelle Youssouf Alioum</h3>
+										<p class="text-muted ml-5">Concepteur Développeur Java & Economiste</p>
+										<div class="container">
+											<table class="table table-responsive ml-4">
+												<tr>
+													<td class="text-muted">Âge</td>
+													<td>:</td>
+													<td>27 ans</td>
+												</tr>
+
+												<tr>
+													<td class="text-muted">Email</td>
+													<td>:</td>
+													<td>youssoufalioum@yahoo.fr</td>
+												</tr>
+
+												<tr>
+													<td class="text-muted">Téléphone</td>
+													<td>:</td>
+													<td>(+237) 695415450</td>
+												</tr>
+
+												<tr>
+													<td class="text-muted">Langue</td>
+													<td>:</td>
+													<td>Français & Anglais</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col">
+					<span class="bg-primary text-white">A propos de Moi</span><hr class="bg-primary">
+					<p class="lead text-justify">Je suis né dans la région de l'extrême nord Cameroun plus précisement à Maroua. J'ai obtenu ma licence en économie et finance internationale à la faculté des Sciences économiques et de Gestion de l'université de Ngaoundéré et aujourd'hui je suis en formation chez objis dans le cadre du programmes 10000Codeurs.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<!--Section pour compétence-->
+
+	<section id="competence">
+		 <div class="container-fluid">
+		 	<h1 class="titre_competence text-center">Mes compétences</h1>
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <h1>JAVA</h1>
+            <canvas id="doughnut" width="120" height="120"></canvas>
+            <canvas id="skill1" width="120" height="120" class=""></canvas>
+            <p>je développe des applications Desktop et Web sécurisées.
+              <br>JAVA SE & JAVA EE.</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h1>Android</h1>
+            <canvas id="doughnut2" width="120" height="120"></canvas>
+            <canvas id="skill2" width="120" height="120" class=""></canvas>
+            <p>je développe des applications Android avec JAVA.
+              <br>ANDROID.</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h1>PHP</h1>
+            <canvas id="doughnut3" width="120" height="120"></canvas>
+            <canvas id="skill3" width="120" height="120" class=""></canvas>
+            <p>je possède des notions en PHP.
+              <br>PHP.</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h1>Prestashop</h1>
+            <canvas id="doughnut4" width="120" height="120"></canvas>
+            <canvas id="skill4" width="120" height="120" class=""></canvas>
+            <p>je développe des modules prestashop.
+              <br>Avec PHP.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+   <div class="container text-center">
+    		<button type="button" id="voir-plus" class="btn btn-primary"><B>Voir plus</button>
+   </div>
+	</section>
+	
+	<!--partie Poppup-->	
+	<div id="bg-modal" class="bg-modal">
+	<div class="modal-contents animated flipInY">
+	 <div class="close">+</div>
+  <h1>Compétences</h1>
+  <ul>
+    <li>Methode Agile(SCRUM)</li>
+    <div class="box">
+      <div id="one"></div>
+    </div>
+    <li>Wordpress</li>
+    <div class="box">
+      <div id="two"></div>
+    </div>
+    <li>CSS</li>
+    <div class="box">
+      <div id="three"></div>
+    </div>
+    <li>JavaScript</li>
+    <div class="box">
+      <div id="four"></div>
+    </div>
+    <li>Web Design</li>
+    <div class="box">
+      <div id="five"></div>
+    </div>
+  </ul>
+</div>
+</div>
+	
+	<!--Fin Poppup-->
+	
+
+	<!--Section pour les services(Timeline)-->
+
+	<section id="partie_timeline">
+
+		<h1 class="titre_competence text-center">Mes Services</h1>
+		
+		<div class="container">
+		<div id="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <!--img src="assets/images/star.svg" alt=""-->
+                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+            </div>
+            <div class="timeline-content">
+                <h2>ANALYSE</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <!--img src="assets/images/book.svg" alt=""-->
+                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+            </div>
+            <div class="timeline-content right">
+                <h2>CONCEPTION</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi  ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <!--img src="assets/images/star.svg" alt=""-->
+                <!--i class="fa fa-cog fa-spin fa-3x fa-fw"></i-->
+                <i class="fa fa-free-code-camp fa-2x simi-i"></i>
+            </div>
+            <div class="timeline-content">
+                <h2>DEVELOPPEMENT</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                </p>
+            </div>
+
+            
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <!--img src="assets/images/book.svg" alt=""-->
+                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+            </div>
+            <div class="timeline-content right">
+                <h2>INFOGRAPHIE</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi  ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                </p>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+    <!-- Timeline ends here -->
+</div>
+</div>
+</section>
+
+
+
+
+	<!--section pour réseau social-->
+	<section id="reseau-social">
+		<div class="container text-center">
+			
+			<h1 class="titre_rs">Retrouvez-moi sur</h1>
+	<ul>
+
+	<li class="col-md-3">
+		<a href="https://github.com/youssoufalioum" target="_blank">
+			<img src="icons/github.png"/>
+			<span>-GitHub</span>
+		</a>
+		
+	</li>
+
+	<li class="col-md-3">
+		<a href="https://www.linkedin.com/in/youssouf-alioum-5b0703169" target="_blank">
+			<img src="icons/Linkedin.png"/>
+			<span>-Linkedin</span>
+		</a>
+	</li>
+
+	<li class="col-md-3">
+		<a href="https://www.facebook.com/alioumyoussouf" target="_blank">
+			<img src="icons/facebook.png"/>
+			<span>-Facebook</span>
+		</a>
+		
+	</li>
+
+	<li class="col-md-3">
+		<a href="https://twitter.com/youssoufalioum" target="_blank">
+			<img src="icons/twitter.png"/>
+			<span>-Twitter</span>
+		</a>
+	</li>
+
+	</ul>
+</div>
+
+	</section>
+	
+
+	<!--section pour le footer-->
+
+	<section id="footer">
+		<img src="images/wave.png" class="footer-img">
+	</section>
+
+	<script src="js/smooth-scroll.js"></script>
+	<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+	</script>
+	
+		
+	<script>
+		document.getElementById('voir-plus').addEventListener("click", function() {
+	document.querySelector('#bg-modal').style.display = "flex";
+});
+
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('#bg-modal').style.display = "none";
+});
+	</script>
+
+	<script src="js/skill.js"></script>
+	
+</body>
+</html>
